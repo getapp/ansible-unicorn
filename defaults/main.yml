@@ -1,0 +1,6 @@
+unicorn_app_root: /var/www
+unicorn_workers_num: 4
+unicorn_config_path: /etc/unicorn.rb
+unicorn_user: unicorn
+unicorn_socket: /tmp/unicorn.sock
+unicorn_pidfile: "/var/run/unicorn.pid"

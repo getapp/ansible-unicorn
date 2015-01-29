@@ -1,0 +1,5 @@
+- name: create config dir
+  file: dest={{unicorn_config_path | dirname}} state=directory
+
+- name: copy unicorn config
+  template: src=unicorn.rb.j2 dest={{unicorn_config_path}}

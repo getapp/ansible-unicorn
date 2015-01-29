@@ -1,0 +1,7 @@
+galaxy_info:
+  author: Boris Mikhaylov
+  description: installs unicorn config
+  platforms: 
+    - ubuntu
+  categories:
+    - system
